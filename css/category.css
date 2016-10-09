@@ -1,0 +1,143 @@
+/* 满屏 */
+body{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+/* 头部 */
+#jd-topBar{
+	width: 100%;
+	height: 45px;
+	position: relative;
+	border: 1px solid #e0e0e0;
+	background: url(../img/header-bg.png) repeat-x;
+	background-size: 1px 45px;
+	z-index: 1000;
+}
+#jd-topBar .icon-back{
+	width: 20px;
+	height: 20px;
+	background-position:-22px 0;
+	position: absolute; 
+	top:0;
+	left: 0;
+	margin:10px 12px;
+
+}
+#jd-topBar form{
+	width: 100%;
+	height: 44px;
+	padding: 5px 44px;
+}
+#jd-topBar form input{
+	width: 100%;
+	height: 32px;
+	display: block;
+	border-radius: 6px;
+	border:1px solid #ccc;
+}
+#jd-topBar .icon-menu{
+	width: 20px;
+	height: 20px;
+	background-position:-60px 0;
+	position: absolute; 
+	top:0;
+	right: 0;
+	margin:10px 12px;
+}
+/* 分类 */
+#category-left-box{
+	width: 90px;
+	height: 100%;
+	overflow: hidden;
+	padding-top: 45px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+#category-left-box .category-left{
+	width: 90px;
+}
+#category-left-box .category-left ul{
+	width: 90px;
+}
+#category-left-box .category-left li{
+	width: 90px;
+	height: 50px;
+	background-color: #f3f4f6;
+}
+#category-left-box .category-left li.active{
+	background-color: #fff;
+}
+#category-left-box .category-left li.active a{
+	color: #f15353;
+	border-right: none;
+}
+#category-left-box .category-left a{
+	width: 100%;
+	height: 100%;
+	border-bottom: #e0e0e0 1px solid;
+	border-right: #e0e0e0 1px solid;
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	line-height: 50px;
+}
+
+/* 具体对应的内容 */
+#content-right-box{
+	width: 100%;
+	height: 100%;
+	padding-left: 90px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	padding-top: 45px;
+}
+#content-right-box .content-right{
+	width: 100%;
+}
+#content-right-box .content-right .banner{
+	width: 100%;
+	text-align: center;
+	margin:10px 0;
+	padding: 0 10px;
+}
+
+#content-right-box .content-right .banner img{
+	width: 100%;
+}
+#content-right-box .content-right .product{
+	width: 100%;
+	margin-top: 10px;
+}
+.content-right .product .product-one{
+	width: 100%;
+}
+.content-right .product .title{
+	color: #888;
+	font-size: 14px;
+	font-weight: inherit;
+	padding:10px 10px;
+}	
+.content-right .product ul{
+
+}
+.content-right .product li{
+	width: 33.333%;
+	margin-bottom: 10px;
+	float: left;
+}
+.content-right .product a{
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.content-right .product img{
+	width: 100%;
+}
+.content-right .product p{
+	margin-top: 10px;
+	font-size: 12px;
+}
